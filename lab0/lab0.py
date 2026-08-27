@@ -12,6 +12,44 @@ Requirements:
 """
 
 import random
+"""
+Python comes with many built-in libraries (also called modules) that provide
+useful functions we can reuse in our programs.
+
+The "random" library provides functions for generating random values.
+To use it, we first import it:
+
+    import random
+
+After importing the library, we can call its functions using:
+
+    random.function_name(...)
+
+For example:
+
+     random.randint(1, 10)
+
+returns a random integer between 1 and 10, including both 1 and 10.
+
+
+Example:
+
+     x = random.randint(1, 10)
+     print(x)
+
+ The output could be:
+
+     3
+
+If you run the program again, the result may be different:
+
+     8
+
+In this lab, we use random.randint() to generate random lists so that you
+can test your functions on different inputs instead of testing only one
+manually created list.
+
+"""
 
 # Please do not modify this function :)
 def RandomList(size=10, lower=0, upper=100):

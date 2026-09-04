@@ -370,6 +370,18 @@ y-axis: average running time
 
 You may create separate plots for linear search and binary search if the difference in scale makes one curve difficult to see.
 
+**Note:** If `matplotlib` is not installed on your computer, you can install it from the terminal using:
+
+```bash
+pip install matplotlib
+```
+
+If `pip` does not work, you may also try:
+
+```bash
+python -m pip install matplotlib
+```
+
 ---
 
 # 10. Submission Requirements

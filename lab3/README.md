@@ -16,7 +16,7 @@ You will work on two parts:
 
 2. **Find a brightest pixel in a color image**
 
-   <img src="/Users/xl/Documents/Courses/26 Fall/4080_algorithms/CISC4080_Assignments/lab3/assets/color.png"  />
+   <img src="./assets/color.png"  />
 
    1. Convert each RGB pixel into a single brightness value.
    2. Implement QuickSelect.
